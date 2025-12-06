@@ -215,7 +215,7 @@ public class ProductStockTest {
         stock.reserve(40);
         stock.removeDamaged(30);
 
-        // onHand = 20 → reserved لازم تنقص
+       
         assertEquals(20, stock.getOnHand());
         assertEquals(20, stock.getReserved());
     }
